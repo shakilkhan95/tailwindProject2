@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" id="htmlTag">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- fontAwesome Link -->
+    <script src="https://kit.fontawesome.com/af209e47cf.js" crossorigin="anonymous"></script>
+
+    <!-- googleFonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- favIcon Link -->
+     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>tickerAI</title>
+</head>
+<body class="bg-white dark:bg-[#111827] font-poppins">
+    <!-- header starts here -->
+    <header class="w-full sticky z-50 px-2 md:px-10 mx-auto flex justify-between items-center py-2">
+        <div class="flex items-center gap-2">
+            <a href="index.html"><img class="w-10 md:w-14" src="assets/tickerAI-logo 1.png" alt="logo"></a>
+
+            <p class="text-[8px] md:text-xs text-black/85 dark:text-white">A Mark Cuban Company <br> AI-based Financial Market News Aggregator</p>
+        </div>
+
+        <div class="flex items-center justify-center gap-3">
+            <button class="bg-[#5677AC] text-white text-sm px-1.5 py-0.5 rounded-md hover:scale-105 hover:translate-x-px transition-all duration-300">Personalize News</button>
+
+            <button class="bg-[#E6EBF3] text-[#5677AC] text-xl font-bold px-2 py-1 rounded-full hover:scale-105 hover:translate-x-px transition-all duration-300">IK</button>
+
+            <i class="fa-solid fa-moon text-2xl dark:text-white cursor-pointer" id="moon"></i>
+        </div>
+    </header>
+    <!-- header ends here -->
+
+    <!-- heroSection starts here -->
+     <section class="w-full py-20 md:py-40 bg-[url('/assets/banner.jpeg')] bg-cover bg-no-repeat flex flex-col justify-center items-center space-y-4">
+            <h1 class="text-white text-3xl md:text-5xl italic font-bold">tickerAI</h1>
+
+            <div class="w-11/12 md:w-2/4 px-2 flex justify-center items-center bg-white rounded-md gap-2 hover:ring">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="w-full py-2 md:py-4 outline-none" type="text" name="text" id="text" placeholder="Search any market topic...">
+            </div>
+
+            <p class="text-white/75 text-sm">There are 6 articles available for your preferences</p>
+     </section>
+    <!-- heroSection ends here -->
+
+
+    <!-- javaScript Link -->
+     <script src="script.js" type="module"></script>
+</body>
+</html>
