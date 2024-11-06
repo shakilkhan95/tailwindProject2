@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .news-tag {
+        @apply bg-black dark:bg-[#5677AC] text-white text-sm px-2 rounded-sm;
+    }
+
+    .feat-tag {
+        @apply bg-[#baceee] text-sm px-1 cursor-pointer rounded-sm hover:bg-black hover:text-white dark:hover:bg-[#5677AC];
+    }
+}
